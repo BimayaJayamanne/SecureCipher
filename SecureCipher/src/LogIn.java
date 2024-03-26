@@ -36,7 +36,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class LogIn extends Application {
-//Use the database URL, username and password
+//Use the database URL, username and password. You can either use your cloud database or local database.
 	String JDBC_URL = "jdbc:mysql://localhost:3306/encrypt_decrypt";
 	String USERNAME = "root";
 	String PASSWORD = "Bimaya123";
