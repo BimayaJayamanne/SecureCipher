@@ -41,7 +41,7 @@ public class LogIn extends Application {
 		String USERNAME = "admin";
 		String PASSWORD = "Bimaya123";
 		
-		//test
+		//testing
 	
 	DES desAlgo;
 	Connection connection;
