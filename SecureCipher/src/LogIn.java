@@ -36,12 +36,10 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class LogIn extends Application {
-	// use your Database URL user name and password. Works for both cloud and local databases. Just replace your JDBC URL, User name and password below
-		String JDBC_URL = "jdbc:mysql://securitydb-2.cjpapks9auhg.ap-southeast-2.rds.amazonaws.com:3306/userdata?user=admin";
-		String USERNAME = "admin";
-		String PASSWORD = "Bimaya123";
-		
-		//testing
+//Use the database URL, username and password
+	String JDBC_URL = "jdbc:mysql://localhost:3306/encrypt_decrypt";
+	String USERNAME = "root";
+	String PASSWORD = "Bimaya123";
 	
 	DES desAlgo;
 	Connection connection;
