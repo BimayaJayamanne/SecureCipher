@@ -40,6 +40,8 @@ public class LogIn extends Application {
 		String JDBC_URL = "jdbc:mysql://securitydb-2.cjpapks9auhg.ap-southeast-2.rds.amazonaws.com:3306/userdata?user=admin";
 		String USERNAME = "admin";
 		String PASSWORD = "Bimaya123";
+		
+		//test
 	
 	DES desAlgo;
 	Connection connection;
